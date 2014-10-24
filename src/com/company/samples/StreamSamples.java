@@ -29,6 +29,7 @@ public class StreamSamples {
                 values.parallelStream()
                         .mapToInt(StreamSamples::doubleit)
                         .sum()
+
         );
 
     }
