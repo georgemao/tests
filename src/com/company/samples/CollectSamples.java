@@ -12,7 +12,7 @@ public class CollectSamples {
 
     public static boolean isOdd(int integer){
         try {
-            Thread.sleep(1000);
+            Thread.sleep(1000); // simulates some long running logic
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
